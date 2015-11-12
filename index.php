@@ -10,7 +10,38 @@
 
     <title>eloftis</title>
 
- <?php @include   'partials/header.php'; ?>
+     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+	<div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/index.php">Emily loftis</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/work/index.php">Work</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
   </head>
 
@@ -29,6 +60,36 @@
 				</div>
 			</div>
 	    </div> 
+	</div>
+
+		
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Location</h4>
+					<p>
+				       Boston Metro
+					</p>
+				</div>
+				
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="http://www.linkedin.com/in/eloftis">LinkedIn</a><br/>
+						<a href="http://codepen.io/eloftis/">Codepen</a><br/>
+						<a href="http://www.twitter.com/emaloftis">Twitter</a><br/>
+					</p>
+				</div>
+				
+				<div class="col-lg-4">
+					<h4>About</h4>
+					<p>This site was built using Bootstrap and the Stanley theme by&nbsp;BlackTie.co.</p>
+				</div>
+			
+			</div>
+		
+		</div>
 	</div>
 	
  
