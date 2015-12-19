@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-lg-4">
 				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt="" /></a>
-				<p>RAIDERS</p>
+				<p>ux-mobile-conference</p>
 			</div>
 			<div class="col-lg-4">
 				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt="" /></a>
