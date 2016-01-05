@@ -34,13 +34,13 @@ p {
 }
 
 a {
-    color: #ad592d;
+    color: #493242;
     word-wrap: break-word;
 }
 
 a:hover,
 a:focus {
-    color: #ad592d;
+    color: #493242;
     text-decoration: underline;
     outline: 0; 
 }
@@ -89,8 +89,9 @@ a:focus {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #e5cca3;
+	color: #493242;
 	text-decoration:none;
+    cursor: pointer;
 }
 
 .navbar-brand {
