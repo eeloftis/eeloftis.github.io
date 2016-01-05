@@ -22,44 +22,27 @@ h1 {
 }
 
 
-/* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
+    text-align: center;
 }
 
 .centered {
     text-align: center;
 }
 
-/* Links */
 a {
     color: #ad592d;
     word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
     color: #ad592d;
     text-decoration: underline;
-    outline: 0;
-    
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+    outline: 0; 
 }
 
  hr {
@@ -68,7 +51,23 @@ a:after {
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0;
+    padding: 10px 0;
+}
+
+.avatar {
+    width: 100px;
+    padding: 40px 0 20px 0;
+}
+
+.img-responsive {
+    max-width: 350px;
+    border: 2px solid #96c3d7;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive:hover {
+    border: 1px solid #83BACF;
 }
 
 
@@ -80,12 +79,13 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #89201C;
-	border-color: #83bacf;
+	background-color: #83bacf ;
+	border-color: #96c3d7;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
+    padding-left: 0;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -107,32 +107,6 @@ a:after {
 	border-color: transparent;
 }
 
-.progress-bar-theme {
-  background-color: #CC66FF;
-}
-
-
-/* Helpers */
-
-.mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-
-/* +++++ WRAP SECTIONS +++++ */
-
-#ww {
-	padding-bottom: 35px;
-	background-color: #f2f2f2;
-}
-
-
 #footer {
 	background-color: #2f2f2f;
 	padding-top: 50px;
@@ -141,11 +115,11 @@ a:after {
 
 #footer p {
 	color: white;
+    text-align: left;
 }
 
-
 #footer a {
-color:#83bacf;
+    color:#83bacf;
 }
 
 #footer h4 {
@@ -155,63 +129,23 @@ color:#83bacf;
 }
 
 
-
-/* +++++ Color Wraps / Blog Page +++++ */
-
-#grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
-}
-
-#white {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #ffffff;
-}
-
-
-/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
-/* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
-    background:transparent url(../img/loader.gif) no-repeat center;
-}
-
-
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../img/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
+@media (max-width: 1190px) {
+    .img-responsive {
+        max-width:300px;
     }
-
-.zoom2 {
-	opacity: 1;
 }
 
-.zoom2:hover {
-	opacity: 0.5;
+@media (max-width: 768px) {
+    .navbar-nav{
+        float:right;
+        display: inline;
+        padding-right:20px;
+    }
 }
 
-/* glyphicon Configuration */
 
-.glyphicon {
-	font-size: 40px;
-	color: #CC66Ff;
+@media (max-width: 400px) {
+    .img-responsive {
+        max-width: 250px;
+    }
 }
-
-.avatar {
-	width: 100px;
-	}
-
-
-	.img-responsive {
-		max-width: 400px;
-	}
-
