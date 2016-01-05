@@ -142,6 +142,11 @@ a:focus {
         display: inline;
         padding-right:20px;
     }
+
+    #footer .container {
+        padding-left: 30px;
+    }
+
 }
 
 
