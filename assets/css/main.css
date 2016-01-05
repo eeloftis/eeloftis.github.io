@@ -129,12 +129,21 @@ a:focus {
 	padding-bottom: 20px;
 }
 
+#footer .col-md-4 {
+    padding-left: 20px;
+}
+
 
 @media (max-width: 1190px) {
     .img-responsive {
         max-width:300px;
     }
+    #footer .col-md-4 {
+        padding-left: 15px;
+    }
 }
+
+
 
 @media (max-width: 768px) {
     .navbar-nav{
@@ -146,6 +155,8 @@ a:focus {
     #footer .container {
         padding-left: 30px;
     }
+
+ 
 
 }
 
