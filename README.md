@@ -1,7 +1,7 @@
 To do
 
 
-
+***remove bootstrap, really don't need that ish
 
 download jquery.min and put in js directory
 
@@ -31,3 +31,8 @@ http://stackoverflow.com/questions/651038/how-do-you-clone-a-git-repository-into
 
 
 http://www.techradar.com/how-to/computing/apple/terminal-101-creating-aliases-for-commands-1305638
+
+
+
+
+underbelly of web- shit I don't like: https://rewire.news/article/2016/05/25/anti-choice-groups-deploy-smartphone-surveillance-target-abortion-minded-women-clinic-visits/?utm_source=nar.al&utm_medium=urlshortener&utm_campaign=FB
