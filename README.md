@@ -2,6 +2,13 @@ To do
 
 
 ***remove bootstrap, really don't need that ish
+fix spacing
+add more
+add detail pages?
+
+add blog section (php?)
+
+
 
 download jquery.min and put in js directory
 
